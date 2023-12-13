@@ -15,5 +15,10 @@ public class HelloController {
 	public String hello2()	{
 		return "hello";
 	}
+	@GetMapping("/hello4")
+	public String hello4()	{
+		return "hello";
+	}
+	
 	
 }
